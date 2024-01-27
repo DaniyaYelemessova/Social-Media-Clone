@@ -28,12 +28,6 @@ function Gallery() {
       accomplishment="Affordable Career Coaching"
     />
       <hr></hr>
-      <NewsGallery
-      imageUrl={ImageUser}
-      name=" Harley Ferguson"
-      introduction="I teach developers how to accelerate their careers | Co-Founder & CEO at Origen Software"
-    />
-      <hr></hr>
     </div>
   )
 }

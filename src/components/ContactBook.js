@@ -22,12 +22,6 @@ function ContactBook() {
       name="Erik Fantasu"
       button="Add"
     />
-    <Contacts
-      imageUrl={ImageContact}
-      name="Giles Collings"
-      button="Add"
-    />
-      
     </div>
   )
 }
