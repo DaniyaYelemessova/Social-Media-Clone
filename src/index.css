@@ -1,24 +1,188 @@
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
 .header-container{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color:rgb(252, 252, 252);
+  padding: 20px;
 }
 
 .navigation{
   display: flex;
   width: 400px;
   justify-content: space-between;
-  border: 1px solid grey;
+  border: 2px solid grey;
+  background-color: white;
 }
 
 .navigation a{
   text-decoration: none;
-  color: grey;
-  padding: 10px 20px;
+  color: rgb(130, 130, 130);
+  padding: 18px 20px;
+  font-weight: 500;
 } 
 
 .searchAndTweet{
   display: flex;
   justify-content: space-between;
+  gap: 40px;
+}
+
+.input1{
+  border: 4px solid #24a0ed;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-weight: 700;
+}
+
+.tweet{
+  border: 3px solid #24a0ed;
+  border-radius: 50px;
+  width: 100px;
+  background-color: white;
+  text-align: center;
+  font-weight: 700;
+  color: grey;
+}
+
+.hr{
+  border: 1px solid grey;
+}
+.headerHr{
+  margin-top: 0;
+  color: rgb(246, 235, 235);
+}
+
+.container{
+  display: flex;
+  gap: 40px;
+}
+
+
+.follow{
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.follow a{
+  color:  black;
+  text-decoration: none;
+}
+
+.container{
+  padding: 40px 20px;
+}
+
+ul{
+  display: flex;
+  list-style: none;
   gap: 20px;
+}
+
+.card{
+  width: 340px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid grey;
+}
+
+.card-background{
+  background-color: #24a0ed;
+  width: 340px;
+  height: 100px;
+}
+
+.profile-image{
+  z-index: 1;
+  position: relative;
+  margin-top: -34px;
+  display: block;
+  margin-left: 30px;
+}
+
+.profile-image img{
+  border: 3px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #24a0ed;
+}
+
+.profile-image h3{
+  margin-top: -34px;
+  margin-left: 90px;
+  color: grey;
+}
+
+.card-content{
+  margin-top: 50px;
+}
+
+.card-2{
+  text-align: center;
+  width: 340px;
+  margin-top: 40px;
+  border: 1px solid grey;
+  padding: 50px 0;
+}
+
+.display{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.news-container{
+  max-width: 340.7px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap:30px;
+  background-color: #d3eeff;
+  border: 1px solid white;
+  justify-content: center;
+}
+
+.news-container .square{
+  width: 30px;
+  height: 30px;
+  background-color: brown;
+}
+
+.news-container input{
+  padding: 8px;
+  border: 2px solid #36aaf2;
+}
+
+.news-container input ::placeholder{
+  color: #24a0ed;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.newsImage{
+  width: 50px;
+  object-fit: contain;
+}
+
+.gallery-container{
+  width: 342px;
+  border:  1px solid grey;
+}
+
+h2{
+  margin-bottom: -10px;
+}
+
+.width{
+  width: 200px;
 }

@@ -5,20 +5,21 @@ export default function Header() {
     <React.Fragment>
       <div className="header-container">
         <div className="navigation">
-          <a class="active" href="#home">
+          <a className="active" href="#home">
             Home
           </a>
-          <hr />
+          <hr className="hr"/>
           <a href="#notification">Notification</a>
-          <hr />
+          <hr className="hr" />
           <a href="#messages">Messages</a>
         </div>
 
         <div className="searchAndTweet">
-          <input placeholder="search"></input>
-          <p className="tweet">Tweet</p>
+          <input className="input1" placeholder="Search"></input>
+          <button className="tweet">TWEET</button>
         </div>
       </div>
+      <hr className="headerHr"></hr>
     </React.Fragment>
   );
 }
