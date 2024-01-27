@@ -172,6 +172,7 @@ ul{
 .newsImage{
   width: 50px;
   object-fit: contain;
+  background-color:#d3eeff ;
 }
 
 .gallery-container{
@@ -185,4 +186,36 @@ h2{
 
 .width{
   width: 200px;
+}
+
+.contactFlex{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.contactBook{
+  width: 342px;
+  border:  2px solid grey;
+  padding: 20px;
+}
+
+
+
+.contactImage{
+  width: 80px;
+}
+
+h3{
+  margin-top: -10px;
+}
+
+.btn{
+  background-color: #24a0ed;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 5px 50px;
+  font-size: 20px;
 }

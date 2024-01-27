@@ -1,6 +1,7 @@
 import React from 'react';
 import Profile from './Profile';
 import Gallery from './Gallery';
+import ContactBook from './ContactBook';
 
 
 
@@ -10,6 +11,7 @@ export default function Main() {
       <div className='container'>
         <Profile />
         <Gallery />
+        <ContactBook />
       </div>
     </React.Fragment>
   )
